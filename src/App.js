@@ -12,6 +12,8 @@ class App extends Component {
           <h1 className="App-title">Bem vindo ao React</h1>
         </header>
         <div><Contador  quantidadeInicial={10} cor="green"/></div>
+        <br />
+        <div><Contador  quantidadeInicial={5} cor="grey"/></div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
