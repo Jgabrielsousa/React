@@ -11,7 +11,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Bem vindo ao React</h1>
         </header>
-        <div><Contador /></div>
+        <div><Contador  quantidadeInicial={10} cor="green"/></div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
